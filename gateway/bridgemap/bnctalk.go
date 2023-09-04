@@ -3,7 +3,7 @@
 package bridgemap
 
 import (
-	btalk "github.com/42wim/matterbridge/bridge/nctalk"
+	btalk "github.com/t0mer/matterbridge/bridge/nctalk"
 )
 
 func init() {

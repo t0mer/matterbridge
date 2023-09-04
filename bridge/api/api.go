@@ -10,12 +10,12 @@ import (
 
 	"github.com/olahol/melody"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
+	"github.com/t0mer/matterbridge/bridge"
+	"github.com/t0mer/matterbridge/bridge/config"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/mitchellh/mapstructure"
-	ring "github.com/zfjagann/golang-ring"
+	"github.com/zfjagann/golang-ring"
 )
 
 type API struct {

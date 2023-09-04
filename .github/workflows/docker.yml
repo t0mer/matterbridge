@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: 42wim/matterbridge,ghcr.io/42wim/matterbridge
+          images: t0mer/matterbridge,ghcr.io/t0mer/matterbridge
           flavor: |
             latest=true
           tags: |

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/gateway/bridgemap"
+	"github.com/t0mer/matterbridge/bridge/config"
+	"github.com/t0mer/matterbridge/gateway/bridgemap"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

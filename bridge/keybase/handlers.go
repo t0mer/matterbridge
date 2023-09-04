@@ -3,7 +3,7 @@ package bkeybase
 import (
 	"strconv"
 
-	"github.com/42wim/matterbridge/bridge/config"
+	"github.com/t0mer/matterbridge/bridge/config"
 	"github.com/keybase/go-keybase-chat-bot/kbchat/types/chat1"
 )
 

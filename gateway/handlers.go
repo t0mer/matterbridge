@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
-	"github.com/42wim/matterbridge/gateway/bridgemap"
+	"github.com/t0mer/matterbridge/bridge"
+	"github.com/t0mer/matterbridge/bridge/config"
+	"github.com/t0mer/matterbridge/gateway/bridgemap"
 )
 
 // handleEventFailure handles failures and reconnects bridges.

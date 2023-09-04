@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/42wim/matterbridge/bridge"
-	"github.com/42wim/matterbridge/bridge/config"
+	"github.com/t0mer/matterbridge/bridge"
+	"github.com/t0mer/matterbridge/bridge/config"
 
 	"gomod.garykim.dev/nc-talk/ocs"
 	"gomod.garykim.dev/nc-talk/room"
