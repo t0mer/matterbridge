@@ -155,8 +155,10 @@ func (b *Bwhatsapp) GetProfilePicThumb(jid string) (*ProfilePicInfo, error) {
 	return info, nil
 }
 
+
 func isGroupJid(identifier string) bool {
 	return strings.HasSuffix(identifier, "@g.us") ||
+	        strings.HasSuffix(identifier, "@c.us") ||
 		strings.HasSuffix(identifier, "@temp") ||
 		strings.HasSuffix(identifier, "@broadcast")
 }
